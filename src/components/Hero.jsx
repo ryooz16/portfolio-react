@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fas } from '@fortawesome/free-solid-svg-icons'
@@ -30,7 +31,7 @@ export default function Hero() {
                     <li><a href="">X</a></li>
                     <li><a href="">Facebook</a></li>
                 </ul>
-                <a href="#about" className='absolute right-5 bottom-5 font-semibold text-gray-500'>Discover <FontAwesomeIcon icon="fa-solid fa-arrow-down" className='text-gray-500' /></a>
+                <Link to="/about" className='absolute right-5 bottom-5 font-semibold text-gray-500'>Discover <FontAwesomeIcon icon="fa-solid fa-arrow-down" className='text-gray-500' /></Link>
             </div>
         </section>
     )

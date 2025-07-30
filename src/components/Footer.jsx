@@ -20,7 +20,11 @@ export default function Footer() {
                     <li><a href="">X</a></li>
                     <li><a href="">Facebook</a></li>
                 </ul>
-                <a href="#hero" className='font-semibold text-gray-500'>Back to Top <FontAwesomeIcon icon="fa-solid fa-arrow-up" className='text-gray-500' /></a>
+                <button onClick={() => {
+                    window.scrollTo({ top: 0, behavior: 'smooth' });
+                    history.replaceState(null, '', '/');
+                }} 
+                className='font-semibold text-gray-500 cursor-pointer'>Back to Top <FontAwesomeIcon icon="fa-solid fa-arrow-up" className='text-gray-500' /></button>
             </div>
         </div>
     )

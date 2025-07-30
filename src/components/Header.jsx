@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 
-export default function Header() {
+export default function Header({ scrollToSection }) {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
@@ -14,10 +15,10 @@ export default function Header() {
                     <div className="hidden md:flex items-center justify-between gap-x-10 text-gray-700">
                         <ul className="flex items-center gap-x-5 text-gray-700">
                             <li className="list-none">
-                                <a href="#about">About</a>
+                                <Link to="/about">About</Link>
                             </li>
                             <li className="list-none">
-                                <a href="#projects">Projects</a>
+                                <Link to="/project">Projects</Link>
                             </li>
                         </ul>
                         <a href="mailto:hallorio@gmail.com" className="underline text-gray-700">hellorio@gmail.com</a>
