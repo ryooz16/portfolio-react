@@ -2,17 +2,17 @@ const projects = [
   {
     title: "Website Coretax New Design",
     year: "2025",
-    image: "../src/assets/images/project-1.webp",
+    image: "/assets/images/project-1.webp",
   },
   {
     title: "Mobile App Sales Tracker",
     year: "2024",
-    image: "../src/assets/images/project-2.webp",
+    image: "/assets/images/project-2.webp",
   },
   {
     title: "Landing Page Marketing",
     year: "2023",
-    image: "../src/assets/images/project-3.webp",
+    image: "/assets/images/project-3.webp",
   },
   // Tambahkan lebih banyak data kalau mau
 ];

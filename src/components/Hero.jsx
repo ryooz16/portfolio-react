@@ -14,7 +14,7 @@ export default function Hero() {
                     <div className="flex flex-col">
                         <div className="flex items-center gap-x-3">
                             <h1 className="text-7xl font-cormorant">Hi, I'm Rio </h1>
-                            <img src="./src/assets/images/profile-picture.svg" alt="image" className="w-[90px] aspect-square rotate-[.25rad] border-2 border-white shadow-xl rounded-xl" />
+                            <img src="/assets/images/profile-picture.svg" alt="image" className="w-[90px] aspect-square rotate-[.25rad] border-2 border-white shadow-xl rounded-xl" />
                         </div>
                         <h1 className="text-7xl font-cormorant"> Permana <span className="text-blue-800">a Web Developer</span></h1>
                     </div>
@@ -26,7 +26,7 @@ export default function Hero() {
                 </div>
                 <ul className="absolute flex item-center gap-x-5 left-5 bottom-5 font-semibold text-gray-500">
                     <li><a href="">LinkedIn</a></li>
-                    <li><a href="">Instapnpmgram</a></li>
+                    <li><a href="">Instagram</a></li>
                     <li><a href="">X</a></li>
                     <li><a href="">Facebook</a></li>
                 </ul>
