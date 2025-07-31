@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="bg-[#f5f5f5]">
-      <div className='w-4/6 mx-auto border-l-2 border-r-2 border-[#eaeaea]'>
+      <div className='w-full md:w-4/6 mx-auto border-l-2 border-r-2 border-[#eaeaea]'>
         <Header />
         <main>
           <div ref={heroRef}>
