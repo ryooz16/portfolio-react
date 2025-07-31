@@ -21,18 +21,18 @@ export default function Hero() {
                         <h1 className=""> Permana <span className="text-blue-800">a Tech Enthusiast</span></h1>
                     </div>
                     <p className="text-gray-700 font-medium">A fifth-semester Informatics Engineering student focusing on modern web development. He has a keen interest in building functional, responsive, and user-friendly web-based applications.</p>
-                    <div className="flex items-center gap-x-5 font-medium">
-                        <a href="mailto:helorio@gmail.com" className="px-5 py-3 bg-blue-800 rounded-lg text-white shadow-xl hover:opacity-80 transition duration-150">Talk with me</a>
-                        <a href="" className="px-5 py-3 border border-gray-700 rounded-lg hover:bg-gray-700 hover:text-white transition-all duration-150">Download my cv</a>
+                    <div className="flex flex-col md:flex-row items-start md:items-center gap-y-3 md:gap-x-5 font-medium">
+                        <a href="mailto:helorio@gmail.com" className="px-3 py-2 md:px-5 md:py-3 bg-blue-800 rounded-md md:rounded-lg text-white shadow-xl hover:opacity-80 transition duration-150">Talk with me</a>
+                        <a href="" className="px-3 py-2 md:px-5 md:py-3 border border-gray-700 rounded-md md:rounded-lg hover:bg-gray-700 hover:text-white transition-all duration-150">Download my cv</a>
                     </div>
                 </div>
-                <ul className="absolute flex item-center gap-x-5 left-5 bottom-5 font-semibold text-gray-500">
+                <ul className="absolute flex item-center gap-x-2 md:gap-x-5 left-5 bottom-5 font-semibold text-gray-500 text-xs">
                     <li><a href="">LinkedIn</a></li>
                     <li><a href="">Instagram</a></li>
                     <li><a href="">X</a></li>
                     <li><a href="">Facebook</a></li>
                 </ul>
-                <Link to="/about" className='absolute right-5 bottom-5 font-semibold text-gray-500'>Discover <FontAwesomeIcon icon="fa-solid fa-arrow-down" className='text-gray-500' /></Link>
+                <Link to="/about" className='absolute right-5 bottom-5 font-semibold text-gray-500 text-xs'>Discover <FontAwesomeIcon icon="fa-solid fa-arrow-down" className='text-gray-500' /></Link>
             </div>
         </section>
     )
